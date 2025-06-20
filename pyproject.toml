@@ -1,0 +1,19 @@
+[project]
+name = "custom-novel"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "django>=5.2.1",
+    "django-soft-delete==1.0.18",
+    "django-softdelete>=0.11.5",
+    "djangorestframework>=3.16.0",
+    "jinja2>=3.1.6",
+    "langchain==0.3.25",
+    "langchain-community==0.3.24",
+    "langchain-ollama==0.3.3",
+    "langchain-openai==0.3.17",
+    "langchain-xinference==0.1.0",
+    "psycopg>=3.2.9",
+    "psycopg2-binary>=2.9.10",
+]
