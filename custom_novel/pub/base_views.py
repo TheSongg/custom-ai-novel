@@ -1,9 +1,9 @@
 from rest_framework import viewsets
 import os
-from novel.models import Novel
-from novel.serializers import NovelSerializer
-from pub.prompt import prompt_template
-from llms import llm_client
+from custom_novel.novel.models import Novel
+from custom_novel.novel.serializers import NovelSerializer
+from custom_novel.pub.prompt import prompt_template
+from custom_novel.llms import llm_client
 
 
 class BaseViewSet(viewsets.ModelViewSet):

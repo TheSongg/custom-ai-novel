@@ -1,7 +1,7 @@
 from rest_framework import status
 from rest_framework.decorators import action
 from django.http import StreamingHttpResponse
-from pub.base_views import BaseViewSet
+from custom_novel.pub.base_views import BaseViewSet
 
 
 class NovelViewSet(BaseViewSet):
