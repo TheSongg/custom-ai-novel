@@ -66,7 +66,7 @@ class NovelRole(SoftDeleteModel):
     name = models.CharField(max_length=100, verbose_name='Name/名字')
     identity_background = models.CharField(max_length=1000, verbose_name='Identity Background/身份背景')
     appearance = models.CharField(max_length=300, verbose_name='Appearance/外貌')
-    character = models.CharField(max_length=500, verbose_name='Role Name/性格')
+    character = models.CharField(max_length=500, verbose_name='Character/性格')
     values_beliefs = models.CharField(max_length=500, verbose_name='Values Beliefs/价值观与信念')
     core_traits = models.CharField(max_length=500, verbose_name='Core Traits/核心特质')
     motivation = models.CharField(max_length=500, verbose_name='Motivation/动机')

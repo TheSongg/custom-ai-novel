@@ -10,8 +10,8 @@ class BaseViewSet(viewsets.ModelViewSet):
     queryset = Novel.objects.all()
     serializer_class = NovelSerializer
 
-    def __init__(self):
-        super(BaseViewSet, self).__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.client = llm_client(
             base_url=os.getenv("BASE_URL"),
             model_name=os.getenv("model_name"),

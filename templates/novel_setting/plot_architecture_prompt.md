@@ -2,7 +2,7 @@
 - 内容指导：{user_guidance}
 - 核心种子：{core_seed}
 - 角色体系：{character_dynamics}
-- 世界观：{world_building}
+- 世界观：{world_view}
 
 要求按以下结构设计：
 ### 第一幕（触发） 
